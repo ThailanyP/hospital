@@ -1,6 +1,6 @@
 # ![hospital (3)](https://user-images.githubusercontent.com/111004514/235028569-7d9da66b-78df-4630-ae35-16db2af1f06b.png) Hospital Fundamental
 
-O hospital necessita de um sistema para sua área clínica que ajude a controlar consultas realizadas. Os médicos podem ser generalistas, especialistas ou residentes e têm seus dados pessoais cadastrados em planilhas digitais. Cada médico pode ter uma ou mais especialidades, que podem ser pediatria, clínica geral, gastroenterologia e dermatologia. Alguns registros antigos ainda estão em formulário de papel, mas será necessário incluir esses dados no novo sistema.
+O hospital necessita de um sistema para sua área clínica que ajude a controlar consultas realizadas. Para isso vamos separar ps dados dos médicos que podem ser generalistas, especialistas ou residentes. Cada médico pode ter uma ou mais especialidades, que podem ser pediatria, clínica geral, gastroenterologia e dermatologia.
 
 Os pacientes também precisam de cadastro, contendo dados pessoais (nome, data de nascimento, endereço, telefone e e-mail), documentos (CPF e RG) e convênio. Para cada convênio, são registrados nome, CNPJ e tempo de carência.
 
