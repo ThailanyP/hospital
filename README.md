@@ -1,5 +1,7 @@
 # ![hospital (3)](https://user-images.githubusercontent.com/111004514/235028569-7d9da66b-78df-4630-ae35-16db2af1f06b.png) Hospital Fundamental
-A pessoas doente, mas antes vamos arrumar o hospital ^^
+
+![doente (1)](https://github.com/ThailanyP/hospital/assets/111004514/a0003b96-967b-45cd-97dd-ab7e3aacc691) A algumas pessoas doentes e precimos ajuda-lás, mas antes precisamos arrumar o hospital.
+
 <br>
 O hospital necessita de um sistema para sua área clínica que ajude a controlar consultas realizadas. Para isso vamos separar ps dados dos médicos que podem ser generalistas, especialistas ou residentes. Cada médico pode ter uma ou mais especialidades, que podem ser pediatria, clínica geral, gastroenterologia e dermatologia.
 
@@ -69,8 +71,11 @@ VALUES(   1, 1, 67, '2021-12-15', '09:00:00', 12345, 'Cardiologia', 150.0);</cod
 
 <br>
 <br>
-# A Ordem do Alterar. 
+
+# ![alterar](https://github.com/ThailanyP/hospital/assets/111004514/7753da9f-a78f-47c7-b5ff-0b66b93085a3)  A Ordem do Alterar. 
+
 Vamos adicionar uma coluna “em_atividade” para os médicos, indicando se ele ainda está atuando no hospital ou não, e alterar alguns médicos. 
+<br>
 1 = atuando e 0 = não
 banco de dados: alterar_hospital
 <br>
@@ -79,3 +84,10 @@ ADD em_atividade TINYINT(1) DEFAULT 1;
 UPDATE medicos
 SET em_atividade = 0
 WHERE id_medico IN (1, 2);</code>
+
+<br>
+
+<h2>Modelagem</h2>
+<br>
+
+![hospital (1)](https://github.com/ThailanyP/hospital/assets/111004514/3a32e219-9e46-43d8-aca7-570f5d2fd476)
