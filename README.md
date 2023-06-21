@@ -43,6 +43,7 @@ Confira: https://github.com/ThailanyP/hospital parte 1
 Nesta etapa, também é importante realizar a separação de alguns scripts iniciais para o banco, com os dados que serão necessários a um povoamento inicial do sistema.
 <br>
 Então, Vamos começar à cadastrar alguns médicos, especialidades, convênios, pacientes, enfermeiros e internações.
+banco de dados: hospital_bd
 <br>
 <br>
 <code>INSERT INTO medicos (nome, cpf, rg, telefone, email, cargo)
@@ -66,3 +67,15 @@ VALUES('2023-01-01', '2023-01-05', '2023-01-10', 'Cirurgia Cardíaca', 5, 16, 8,
 <code>INSERT INTO consultas (id_medico, id_paciente, id_convenio, data, hora, n_carteira, especialidade, valor) 
 VALUES(   1, 1, 67, '2021-12-15', '09:00:00', 12345, 'Cardiologia', 150.0);</code>
 
+<br>
+<br>
+# A Ordem do Alterar. 
+Vamos adicionar uma coluna “em_atividade” para os médicos, indicando se ele ainda está atuando no hospital ou não, e alterar alguns médicos. 
+1 = atuando e 0 = não
+banco de dados: alterar_hospital
+<br>
+<code>ALTER TABLE medicos
+ADD em_atividade TINYINT(1) DEFAULT 1;
+UPDATE medicos
+SET em_atividade = 0
+WHERE id_medico IN (1, 2);</code>
