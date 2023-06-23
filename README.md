@@ -18,7 +18,7 @@ Deseja-se ainda informatizar a receita do médico, de maneira que, no encerramen
 
 <br>
 
-# ![hospital-bed](https://github.com/ThailanyP/hospital-parte-2/assets/111004514/38da799a-ac34-43b7-a76a-5fb593a7caea) Os Segredos do Hospital
+# ![segredo](https://github.com/ThailanyP/hospital/assets/111004514/56b78cae-592f-4a68-95e5-083352800d42) Os Segredos do Hospital
 O hospital necessitava de um sistema para sua área clínica que ajude a controlar consultas realizadas. E desde de então, as internações têm sido registradas por meio de formulários eletrônicos que gravam os dados em arquivos. 
 
 Para cada internação, são anotadas a data de entrada, a data prevista de alta e a data efetiva de alta, além da descrição textual dos procedimentos a serem realizados, e precisam ser vinculadas a quartos, com a numeração e o tipo. 
@@ -30,13 +30,12 @@ Também é necessário controlar quais profissionais de enfermaria estarão resp
 A internação, obviamente, é vinculada a um paciente – que pode se internar mais de uma vez no hospital – e a um único médico responsável.
 <br>
 <br>
-Confira: https://github.com/ThailanyP/hospital parte 1
-<br>
 <h2>Modelagem</h2>
 <br>
 
 
-![hospital (4)](https://github.com/ThailanyP/hospital-parte-2/assets/111004514/42d1cf8d-0bed-4c27-aaf7-88ff792dcbb7)
+![hospital (1)](https://github.com/ThailanyP/hospital/assets/111004514/cc2c6df9-d0eb-467b-8a66-a739a0e39278)
+
 
 <br>
 
